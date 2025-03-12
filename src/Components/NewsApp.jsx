@@ -11,7 +11,7 @@ const Newsapp = () => {
   const API_KEY = "276359f040c7492c91c04542d3e58864";
 
   const getData = async() => {
-   try{const response = await fetch(` https://newsapi.org/v2/everything?q=${search}&apiKey=${API_KEY}`)
+   try{const response = await fetch(`https://newsapi.org/v2/everything?q=${search}&apiKey=${API_KEY}`)
       const jsonData = await response.json();
       console.log(jsonData.articles);
       setNewsData(jsonData.articles);
@@ -22,7 +22,7 @@ const Newsapp = () => {
    }
    useEffect( () => {
       getData();
-   },[search])
+   },[]);
  
    const handleInput = (e) => {
       console.log(e.target.value);
@@ -31,7 +31,7 @@ const Newsapp = () => {
    const userInput = (e) => {
       console.log(e.target.value)
       setSearch(e.target.value);
-     
+      getData();
     } 
   
   return (
