@@ -4,9 +4,8 @@ This is a modern **News App** built with React, Tailwind CSS, and a REST API for
 
 ## 📽️ Project Demo
 
-[![Watch the Video](https://img.youtube.com/vi/<VIDEO_ID>/0.jpg)](<VIDEO_LINK_HERE>)
+[![Watch the Video](https://drive.google.com/file/d/1YEmEmheRoVcVr-7-6KglXk0wM7OLpHfW/view?usp=sharing)](<VIDEO_LINK_HERE>)
 
-> Click on the image to watch the demo video.
 
 ## 🚀 Features
 
