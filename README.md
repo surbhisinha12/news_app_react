@@ -17,7 +17,7 @@ This is a modern **News App** built with React, Tailwind CSS, and a REST API for
 
 - **Frontend:** React.js, Tailwind CSS
 - **API:** News API (or any REST API used)
-- **Deployment:** Vercel
+
 
 ## 📦 Installation
 
