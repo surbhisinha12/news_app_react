@@ -35,7 +35,7 @@ This is a modern **News App** built with React, Tailwind CSS, and a REST API for
    ```
 4. Start the development server:
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## 📄 License
